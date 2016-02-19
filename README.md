@@ -15,22 +15,16 @@ quite useful lately.
 First you'll need to add the django_showurls app in your Django project's
 settings.py file:
 
-    ..
-    INSTALLED_APPS = [
-        'django.contrib.admin',
-        'django.contrib.auth',
-        'django.contrib.contenttypes',
-        'django.contrib.sessions',
-        'django.contrib.messages',
-        'django.contrib.staticfiles',
+    INSTALLED_APPS = (
+        ..
         'django_showurls',
-    ]
-    ..
+        ..
+    )
 
 After that you should be able to get an overview of all the urls in your project
 by calling the showurls management command from your manage.py:
 
-    $ ./manage.py showurls
+    $ python manage.py showurls
         ^admin/
           ^$
             ^login/$
