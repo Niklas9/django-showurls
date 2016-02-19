@@ -23,7 +23,7 @@ settings.py file:
         'django.contrib.sessions',
         'django.contrib.messages',
         'django.contrib.staticfiles',
-        'showurls',
+        'django_showurls',
     ]
     ..
 
