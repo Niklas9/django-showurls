@@ -1,14 +1,8 @@
 # django-showurls
-.. image:: https://travis-ci.org/Niklas9/django-showurls.svg?branch=master
-    :target: https://travis-ci.org/Niklas9/django-showurls
 
-.. image:: https://img.shields.io/pypi/v/django-showurls.svg?style=flat
-    :target: https://pypi.python.org/pypi/django-showurls/
-    :alt: Latest Version
-
-.. image:: https://img.shields.io/pypi/dm/django-showurls.svg?style=flat
-    :target: https://pypi.python.org/pypi/django-showurls/
-    :alt: Downloads
+[![Build status](https://travis-ci.org/Niklas9/django-showurls.svg?branch=master)](https://travis-ci.org/Niklas9/django-showurls)
+[![Latest version](https://img.shields.io/pypi/v/django-showurls.svg?style=flat)](https://pypi.python.org/pypi/django-showurls/)
+[![Downloads](https://img.shields.io/pypi/dm/django-showurls.svg?style=flat)](https://pypi.python.org/pypi/django-showurls/)
 
 
 Adds a new management command that outputs all configured urls to your Django
