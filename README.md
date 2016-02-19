@@ -30,12 +30,12 @@ settings.py file:
 After that you should be able to get an overview of all the urls in your project
 by calling the showurls management command from your manage.py:
 
-    ./manage.py showurls
-     ^admin/
-        ^$
-           ^login/$
-              ^logout/$
-    ..
+    $ ./manage.py showurls
+        ^admin/
+          ^$
+            ^login/$
+               ^logout/$
+    .. etc ..
 
 ## Installation
 Install with pip (or easy_install)::
