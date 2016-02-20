@@ -10,7 +10,6 @@ env:
     - DJANGO=1.8.9
     - DJANGO=1.7.11
     - DJANGO=1.6.11
-    - DJANGO=1.5.12
 install:
     - pip install -q Django==$DJANGO
     - pip install -q -e .
