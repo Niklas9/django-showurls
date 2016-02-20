@@ -5,7 +5,7 @@
 [![Downloads](https://img.shields.io/pypi/dm/django-showurls.svg?style=flat)](https://pypi.python.org/pypi/django-showurls/)
 
 
-Adds a new management command that outputs all configured urls to your Django
+Adds a new management command that outputs all configured urls from your Django
 project.
 
 This is equivalent to Ruby on Rails command "rake routes", which I have found
