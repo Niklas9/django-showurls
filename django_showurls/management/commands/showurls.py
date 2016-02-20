@@ -22,6 +22,6 @@ class Command(base.BaseCommand):
     @staticmethod
     def _print_urls(urllist, depth=0):
         for entry in urllist:
-            print('  ' * depth, entry.regex.pattern)
+            print('%s%s' % ('  '* depth, entry.regex.pattern))
             if hasattr(entry, 'url_patterns'):
                 Command._print_urls(entry.url_patterns, depth + 1)

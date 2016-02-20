@@ -4,7 +4,7 @@ import setuptools
 
 setuptools.setup(
     name='django-showurls',
-    version='1.0.0',
+    version='1.0.1',
     author='Niklas Andersson',
     author_email='nandersson900@gmail.com',
     description='Adds a mgmt command to print urls from your Django project',
