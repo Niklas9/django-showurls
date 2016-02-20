@@ -28,7 +28,7 @@ by calling the showurls management command from your manage.py:
         ^admin/
           ^$
             ^login/$
-               ^logout/$
+            ^logout/$
     .. etc ..
 
 ## Installation
