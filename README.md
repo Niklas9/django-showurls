@@ -36,11 +36,11 @@ Install with pip (or easy_install)::
 
     pip install django-showurls
 
-## TODOs
+## Todos
 * should probably add some system tests that tests the actual command
-  (./manage.py showurls) on a arbitrary Django project
-* see if we can inspect what each view connect to each url accepts HTTP methods,
-  what kind of inputs etc
+  (./manage.py showurls) on arbitrary Django projects
+* look into if we can inspect what HTTP methods a specific url accepts (by
+  looking at the corresponding view?)
 
 ## License
 
